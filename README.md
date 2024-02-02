@@ -27,6 +27,6 @@
   
   ## Questions:
   For additonal questions or open feedback, feel free to contact me at my email:carlospena2112@gmail.com. 
-  You can also find me on Github at [](https://github.com/carlosps444).
+  You can also find me on Github at https://github.com/carlosps444.
   
   © 2024 Confidential and Proprietary. All Rights Reserved.
