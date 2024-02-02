@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Viewer!</title>
+</head>
+
+
+
+<style>
+
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        background-image: linear-gradient(rgba(0, 217, 255, 0.622), rgb(83, 0, 128));
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 30px;
+    }
+
+
+    .frame {
+        border: 10px solid #ccc;
+        padding: 70px;
+        border-radius: 10px;
+        background-image: linear-gradient(rgb(234, 0, 255), orange);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.342);
+    }
+    
+    
+    .logo-container {
+        text-align: center;
+        padding: 50px;
+        background-color: rgba(22, 18, 3, 0.522);
+        border-radius:unset;
+    }
+
+
+
+    .logo-svg {
+        width: 200px;
+        height: 200px;
+        animation: spin 4s linear infinite;
+        filter: drop-shadow(0 0 10px #00ffa6)
+    }
+
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+</style>
+
+
+
+<body>
+  <div class="frame">
+
+    <div class="logo-container">
+
+    <h1>Your Logo</h1>
+
+    <img class="logo-svg" src="./output/logo.svg" alt="Logo">
+
+    </div>
+  </div>
+</body>
+</html>

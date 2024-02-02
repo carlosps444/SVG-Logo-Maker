@@ -1,0 +1,14 @@
+{
+
+    "width": 500,
+    "height": 500,
+    "backgroundColor": "#171eda",
+    "shape": "square",
+    "text": {
+        "content": "CPS",
+        "fontSize": 85,
+        "textColor": "#ccc"
+        
+    }
+    
+}
